@@ -9,6 +9,9 @@ set(VL53LXX_MINOR_VERSION 1)
 set(VL53LXX_PATCH_VERSION 4)
 set(VL53LXX_VERSION
   ${VL53LXX_MAJOR_VERSION}.${VL53LXX_MINOR_VERSION}.${VL53LXX_PATCH_VERSION})
+  
+### Examples
+add_subdirectory (examples)
 
 #Define cmake install path
 if(WIN32 AND NOT CYGWIN)
